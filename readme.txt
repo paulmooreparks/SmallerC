@@ -1,11 +1,13 @@
-Smaller C is a simple and small single-pass C compiler,
+Smaller C is a simple and small single-pass C compiler written by and 
+forked from [Alexey Frunze](https://github.com/alexfru/SmallerC/),
 currently supporting most of the C language common between C89/ANSI C
 and C99 (minus some C89 and plus some C99 features).
 
 Currently it generates 16-bit and 32-bit 80386+ assembly code for NASM
 that can then be assembled and linked into DOS, Windows, Linux and Mac OS X
-programs.
-(You may use YASM or FASM instead of NASM)
+programs. I am modifying it to generate assembly code for the 
+[Maize project](https://github.com/paulmooreparks/Maize).
+
 
 Code generation for MIPS CPUs is also supported (primarily for RetroBSD).
 
